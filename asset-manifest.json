@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/marketkurly/static/css/main.31d6cfe0.css",
+    "main.js": "/marketkurly/static/js/main.485b063c.js",
+    "index.html": "/marketkurly/index.html",
+    "main.485b063c.js.map": "/marketkurly/static/js/main.485b063c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.485b063c.js"
+  ]
+}
