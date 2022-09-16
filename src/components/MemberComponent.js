@@ -460,6 +460,9 @@ const MemberComponent = ({modalOpenFn, 이용약관}) => {
                 else if(e.target.value==='이메일'){
                     setField({...field, 이용약관동의:[...field.이용약관동의, '무료배송, 할인쿠폰 등 혜택/정보 수신 동의', '이메일']});
                 }
+                else{
+                    setField({...field, 이용약관동의:[...field.이용약관동의, e.target.value]});
+                }
             }
             else if(field.이용약관동의.includes('이메일')){
                 if(e.target.value==='무료배송, 할인쿠폰 등 혜택/정보 수신 동의'){
@@ -467,6 +470,9 @@ const MemberComponent = ({modalOpenFn, 이용약관}) => {
                 }
                 else if(e.target.value==='SMS'){
                     setField({...field, 이용약관동의:[...field.이용약관동의, '무료배송, 할인쿠폰 등 혜택/정보 수신 동의', 'SMS']});
+                }
+                else{
+                    setField({...field, 이용약관동의:[...field.이용약관동의, e.target.value]});
                 }
             }
             else{
